@@ -25,3 +25,12 @@ To run the site locally for preview:
    This creates `_posts/YYYY-MM-DD-my-new-post.md`, copies the path to your clipboard, and stages the file.
 2. Open the new file, update the front matter (title, tags, etc.), and add your content below the `---` delimiter.
 3. Preview the change locally with the steps in the previous section, then commit and push when you are satisfied.
+
+## Add Images
+
+1. Save your image under `media/uploads/` (feel free to create subfolders such as `media/uploads/2025/` to stay organized) and add it to version control.
+2. Reference the asset in Markdown using Jekyll’s `relative_url` filter so links work locally and after deployment:
+   ```markdown
+   ![Alt text]({{ "/media/uploads/example.jpg" | relative_url }})
+   ```
+3. Commit the image together with the post that uses it to avoid broken references.
