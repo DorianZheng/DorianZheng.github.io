@@ -1,0 +1,25 @@
+# Build output
+_site/
+
+# Jekyll caches
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+.bundle/
+vendor/bundle/
+vendor/cache/
+vendor/ruby/
+
+# Node tooling
+node_modules/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
