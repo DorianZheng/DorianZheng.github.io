@@ -4,7 +4,7 @@ permalink: /:year/:month/:day/:title.html
 name: "O_RDONLY"
 markdown: rdiscount
 
-author: "郑志铨"
+author: "Dorian Zheng"
 atom-baseurl: 
 disqus: 
 
